@@ -2,7 +2,7 @@ package training;
 
 import java.util.Scanner;
 
-public class Sod {
+public class SumOfDigit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

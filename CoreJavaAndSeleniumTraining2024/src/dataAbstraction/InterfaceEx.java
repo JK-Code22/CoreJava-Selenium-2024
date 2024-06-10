@@ -19,13 +19,13 @@ interface Shape {
 public class InterfaceEx implements Shape {
 	
 	@Override
-	public void circle() //class method will have default access modifier, if nothing specified, So we used public here
+	public void circle() //when we implement interface method we need specify access modifier public
 	{
 		System.out.println("This is circle");
 		
 	}
 
-	 void triangle() //its default acess modifier here, as we didn't spcify anything
+	 void triangle() //its default access modifier here, as we didn't specify anything for class method its default
 	{
 		System.out.println("This is triangle");
 		
